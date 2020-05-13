@@ -1,3 +1,28 @@
+table {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+tbody {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+td {
+  transition: transform 1s;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid red;
+  width: 250px;
+  height: 100px;
+}
+
 .rotate {
   transform: rotate(180deg);
   color: blue;
